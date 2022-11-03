@@ -1,56 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# OOP school library
 
-> Description the project.
+>  In this project I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Terminal
+- IRB
+- Robocop (linters)
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]() (Project will have none)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Install
 
-### Setup
+In your terminal, navigate to your current directory and run this code
 
-### Install
+`git@github.com:fullstop125/oop-school-library.git`
 
-### Usage
+Locate the directory in your file explorer
 
-### Run tests
+`cd oop-school-library`
 
-### Deployment
+Install Robocop
 
+`bundle install`
 
+## Run Linters:
 
+### To run rubocop we use:
+`rubocop`
+
+### To autocorrect offenses with rubocop we use:
+`rubocop --auto-correct-all` or
+`rubocop -A`
+
+Have fun acting as the librarian!
 ## Authors
 
-👤 **Author1**
+👤 **Momanyi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fullstop125](https://github.com/fullstop125)
+- Twitter: [@MosesHassany](https://twitter.com/MosesHassany)
 
 ## 🤝 Contributing
 
@@ -71,5 +71,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
