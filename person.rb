@@ -5,20 +5,20 @@ require './capitalizedecorator'
 
 class Person < Nameable
   attr_accessor :name, :age
-  attr_reader :id, :rentals
+  attr_reader :id, :rental
 
-  def initialize(age, name = 'unknown', parent_permission: true)
+  def initialize(age, name = 'unknown', parent_permission = 'true')
     super()
     @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
-    @rentals = []
+    @rental = []
   end
 
-  def add_rental(rentals)
-    @rentals.push(rentals)
-    rentals.person = self
+  def add_rental(rental)
+    @rental.push(rental)
+    rental.person = self
   end
 
   def correct_name
